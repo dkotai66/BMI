@@ -1,4 +1,4 @@
-# [Név]
+# Kótai Dániel
 
 ## Hogyan kezdj neki?
 
