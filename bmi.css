@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.adatok {
+    color: white;
+    background-color: #c98344;
+    margin-top: 50px;
+    padding: 40px 40px 40px 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#suly {
+    margin-left: 73px;
+}
+
+#magassag {
+    margin-left: 50px;
+}
+
+#sovany {
+    width: 500px;
+}
+
+#normal {
+    width: 500px;
+}
+
+#tulsuly {
+    width: 500px;
+}
+
+#elsofoku {
+    width: 500px;
+}
+
+#masodikfoku {
+    width: 500px;
+}
+
+#harmadikfoku {
+    width: 500px;
+}
+
+#bekuld {
+   color:#c98344;
+}
+
+.kiiratas{
+    color: #c98344;
+    margin-top: 50px;
+    padding: 40px 40px 40px 40px;
+}
+
+.tablazat {
+    margin-left: 150px;
+    margin-top: 50px;
+    color: black;
+    text-align: left;
+    
+}
+
+.idealis {
+    margin-top: 50px;
+    padding: 40px 40px 40px 40px;
+}
+
+hr{
+    width: 500px;
+}
+
+
+.igazitas {
+    padding-left: 50px;
+}
+
+th, td{
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.velemeny {
+    padding-left: 50px;
+}
