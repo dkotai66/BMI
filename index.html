@@ -8,7 +8,53 @@
     <link rel="stylesheet" href="bmi.css">
 </head>
 <body>
-    
+    <div class="adatok">
+        <h2>Írja be test magasságát cm-be mérve (cipő nélkül): <input type="number" id="magassag"> cm </h2>
+        <br>
+        <br><br>
+        <h2>Írja be kg-ban számított testsúlyát (cípő nélkül): <input type="number" id="suly"> kg</h2>
+
+        <br>
+
+        <button id="bekuld">Számítás</button>
+    </div>
+
+    <div class="kiiratas">
+        <h2>AZ ÖN BMI ÉRTÉKE: <span id="bmiertek"></span> </h2>
+        <div class="tablazat">
+            <div id="sovany">
+                <h3 >18,5 vagy kevesebb  <span class="igazitas">Sovány</span></h3>
+                <hr>
+            </div>
+            <div id="normal">
+                <h3 >18,5 - 24,9 <span class="igazitas" style="margin-left: 70px;">Normál</span></h3>
+                <hr>
+            </div>
+            <div id="tulsuly">
+                <h3 >25 - 29,9<span class="igazitas" style="margin-left: 89px;">Túlsúly</span></h3>
+                <hr>
+            </div>
+            <div id="elsofoku">
+                <h3>30 - 34,9 <span class="igazitas" style="margin-left: 85px;">I. fokú elhízás</span></h3>
+                <hr>
+            </div>    
+            <div id="masodikfoku">
+                <h3>35 - 39,9 <span class="igazitas" style="margin-left: 85px;">II. fokú elhízás</span></h3>
+                <hr>
+            </div>
+            <div id="harmadikfoku">
+                <h3>40 vagy több<span class="igazitas" style="margin-left: 54px;">III. fokú elhízás</span></h3>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="idealis">
+        <h2>AZ IDEÁLIS TESTTÖMEGE: <span id="idealistesttomeg"></span></h2>
+    </div>
+   
+    <p id="kivanatossuly" style="margin-left: 100px;"></p>
+
     <script src="bmi.js"></script>
 </body>
 </html>
