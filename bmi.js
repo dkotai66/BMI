@@ -6,6 +6,7 @@ function testtomegindex(){
     let bmieredmeny = suly / (magassag / 100) ** 2;
     let szelso_also = 18.5 * (magassag / 100) ** 2
     let szelso_felso = 24.9 * (magassag / 100) ** 2
+    let idealistestsuly = magassag - 100; //én így emlékszem 
     document.getElementById("bmiertek").textContent =  bmieredmeny;
    
     if(bmieredmeny<18.5){
@@ -28,6 +29,7 @@ function testtomegindex(){
     }
 
     document.getElementById("kivanatossuly").textContent = szelso_also.toFixed()+"-"+szelso_felso.toFixed();
+    document.getElementById("idealistesttomeg").textContent = idealistestsuly + "kg";
 }
 
 document.getElementById("bekuld").addEventListener("click", testtomegindex)
